@@ -18,8 +18,8 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2.	Start the app
   ```bash
   npx start
-  
-  
+
+3. 
  You can open the app in a:
 	•	Development build
 	•	Android emulator
@@ -28,10 +28,12 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 Start building in the app/ directory — this project uses file-based routing.
 
+4.
 Reset for a fresh start
   ```bash
 npm run reset-project
 
+5.
 Learn More
 	•	Expo Docs
 	•	Step-by-Step Expo Tutorial
