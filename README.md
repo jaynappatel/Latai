@@ -29,7 +29,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 Start building in the app/ directory — this project uses file-based routing.
 
 Reset for a fresh start
-///bash 
+  ```bash
 npm run reset-project
 
 Learn More
