@@ -1,41 +1,49 @@
-# LaTai
-
-✨ A cozy recipe and animation app for tea lovers. Built with React Native & Expo. Currently in development.
-
----
-
-## Welcome to your Expo app 👋
+#  Welcome to your Expo app — LaTai
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-### 🚀 Get started
+---
 
-1. Install dependencies
+##  Get Started
 
-   ```bash
-   npm install
+### 1. Install Dependencies
 
-2.	Start the app
-  ```bash
-  npx start
+```bash
+npm install
+```
 
-3. 
- You can open the app in a:
-	•	Development build
-	•	Android emulator
-	•	iOS simulator
-	•	Expo Go, a limited sandbox for trying out app development with Expo
+### 2. Start the App
 
-Start building in the app/ directory — this project uses file-based routing.
+```bash
+npx expo start
+```
 
-4.
-Reset for a fresh start
-  ```bash
+---
+
+## Open the App In:
+
+- Development build  
+- Android emulator  
+- iOS simulator  
+- [Expo Go](https://expo.dev/go) — a lightweight sandbox for testing your app
+
+Start building in the `app/` directory — this project uses [file-based routing](https://docs.expo.dev/router/introduction/).
+
+---
+
+## Reset for a Fresh Start
+
+```bash
 npm run reset-project
+```
 
-5.
-Learn More
-	•	Expo Docs
-	•	Step-by-Step Expo Tutorial
-	•	Expo GitHub
-	•	Expo Discord Community
+This will archive the starter code into the `app-example/` directory and create a blank `app/` folder to begin development.
+
+---
+
+## Learn More
+
+- [📖 Expo Docs](https://docs.expo.dev/)
+- [🎓 Step-by-Step Expo Tutorial](https://docs.expo.dev/tutorial/introduction/)
+- [💻 Expo GitHub](https://github.com/expo/expo)
+- [💬 Expo Discord Community](https://chat.expo.dev)
