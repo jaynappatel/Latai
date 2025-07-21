@@ -1,12 +1,13 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
+# Node dependencies
 node_modules/
+jspm_packages/
 
-# Expo
+# Expo / React Native
 .expo/
+.expo-shared/
 dist/
 web-build/
+*.tsbuildinfo
 expo-env.d.ts
 
 # Native
@@ -21,19 +22,75 @@ expo-env.d.ts
 # Metro
 .metro-health-check*
 
-# debug
+# Debugging
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+*.log
+logs
+.report*
+*.pid
+*.seed
+*.pid.lock
 
 # macOS
 .DS_Store
 *.pem
 
-# local env files
+# Local environment files
+.env
+.env.*
 .env*.local
+!.env.example
 
-# typescript
+# Build tools
+.cache/
+.parcel-cache/
+.nuxt
+dist/
+.next
+out
+.cache
+.nuxt
+.temp
+.serverless/
+build/Release
+bower_components
+.dynamodb/
+firebase/
+
+# TypeScript
 *.tsbuildinfo
 
+# Lint & Testing
+.nyc_output
+coverage
+*.lcov
+.eslintcache
+.stylelintcache
+.vscode-test
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn-integrity
+.pnp.*
+.lock-wscript
+
+# Misc
+.vscode/
+.node_repl_history
+.tern-port
+.fusebox/
+.docusaurus
+.svelte-kit/
+.vitepress/
+**/.vitepress/dist
+**/.vitepress/cache
+
+# Custom folders
 app-example
